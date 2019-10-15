@@ -1,0 +1,28 @@
+.content {
+    .main-content {
+        h2 {
+            font-size: 20px;
+            line-height: 24px;
+
+            img {
+                vertical-align: bottom;
+            }
+        }
+
+        p {
+            img {
+                display: inline-block;
+                vertical-align: bottom;
+            }
+        }
+
+
+        .magazine-image {
+            width: 100%;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}
