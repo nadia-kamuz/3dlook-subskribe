@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #F5F6F8;
+  background-color: #F5F6F8 !important;
   font-family: "Roboto", Arial, sans-serif;
 }
 body p,
