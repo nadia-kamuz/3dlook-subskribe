@@ -198,11 +198,86 @@ ul li a {
   display: inline-block;
   vertical-align: bottom;
 }
-.content .main-content .magazine-image {
+.content .main-content .card {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  z-index: 10;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1);
+}
+.content .main-content .card h3 {
+  color: #282828;
+}
+.content .main-content .card p {
+  margin-bottom: 10px;
+}
+.content .main-content .card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98.1%;
+}
+.content .main-content .card td:nth-child(1) {
+  height: 320px;
+  width: 41.8%;
+  background-color: #fff;
+}
+.content .main-content .card td:nth-child(2) {
+  padding-right: 25px;
+  display: inline-block;
+  background-color: #fff;
+  height: 320px;
+  padding-left: 24px;
+}
+.content .main-content .card td:nth-child(2) p {
+  color: #000;
+}
+.content .main-content .card td img {
+  display: block;
   width: 100%;
 }
-.content .main-content a {
-  text-decoration: underline;
+.content .main-content .card-btn-container {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.content .main-content .card-btn-container .btn {
+  color: #fff;
+}
+.content .hidden-desktop.article table tr td .btn {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.content .hidden-desktop.article table tr:first-child td {
+  background-color: #fff;
+}
+.content .hidden-desktop.article table tr:first-child td img {
+  width: 100%;
+}
+.content .hidden-desktop.article table tr:nth-child(2) td {
+  height: 275px;
+  background-color: #fff;
+  padding: 20px !important;
+  padding-bottom: 48px;
+  display: inline-block;
+}
+.content .hidden-desktop.article table tr:nth-child(2) td h3 {
+  margin: 0 0 10px !important;
+  color: #282828;
+}
+.content .hidden-desktop.article table tr:nth-child(2) td p {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+.content .hidden-desktop.article table tr:nth-child(2) td .btn {
+  margin-top: 10px;
+}
+.content .hidden-mobile table {
+  margin-bottom: 30px;
 }
 
 .footer .desc-table {
